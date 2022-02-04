@@ -14,6 +14,7 @@ public class PlatziMarketApplication {
 
 		try {
 			SpringApplication.run(PlatziMarketApplication.class, args);
+			System.out.println("modificacion");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
